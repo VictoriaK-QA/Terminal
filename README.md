@@ -39,6 +39,7 @@
 16. Просмотреть содержимое в реальном времени (команда grep) изучите как она работает - 
 <code> <b>tail -F file_bug5.json</b> </code>  
 Для выхода нажать <code> <b>ctrl+c</b> </code>
+
 17. Вывести несколько первых строк из текстового файла - <code> <b>head -n2 file_bug5.json</b> </code>
 18. Вывести несколько последних строк из текстового файла - <code> <b>tail -n2 file_bug5.json</b> </code>
 19. Просмотреть содержимое длинного файла (команда less) изучите как она работает. - <code> <b>less long_file.json</b> </code>
@@ -82,9 +83,9 @@ mv file3.txt file4.json ~/folder_test/Terminal_dz1/folder1/
 
   
   
-1. Посмотреть где я - <code> <b></b> </code>
-
-
+1. 
+2.
+3.
   
 
 </details>
