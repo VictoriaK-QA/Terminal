@@ -125,7 +125,7 @@ mv file3.txt file4.json ~/folder_test/Terminal_dz1/folder1/
  ```
  <b>Нажать</b> <code> <b>Esc :wq Enter</b> </code>
 
- 8. Отправить изменения на внешний репозиторий - <code> <b>git commit -am "new file"</b> </code> <b>git push</b> </code>
+ 8. Отправить изменения на внешний репозиторий - <code> <b>git commit -am "new file"</b> </code> <code> <b>git push</b> </code>
  9. Создать файл preferences.json - <code> <b>touch preferences.json</b> </code>
  10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON - <code> <b>vim preferences.json</b> </code>
 
@@ -204,7 +204,7 @@ mv file3.txt file4.json ~/folder_test/Terminal_dz1/folder1/
  ```
  <b>Нажать</b> <code> <b>Esc :wq Enter</b> </code>
 
- 8. Отправить изменения на внешний репозиторий - <code> <b>git commit -am "new file"</b> </code> <b>git push</b> </code>
+ 8. Отправить изменения на внешний репозиторий - <code> <b>git commit -am "new file"</b> </code> <code> <b>git push</b> </code>
  9. Создать файл preferences.xml - <code> <b>touch preferences.xml</b> </code>
  10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML - <code> <b>vim preferences.xml</b> </code>
 
