@@ -41,7 +41,7 @@
 Для выхода нажать <code> <b>ctrl+c</b> </code>
 17. Вывести несколько первых строк из текстового файла - <code> <b>head -n2 file_bug5.json</b> </code>
 18. Вывести несколько последних строк из текстового файла - <code> <b>tail -n2 file_bug5.json</b> </code>
-19. Просмотреть содержимое длинного файла (команда less) изучите как она работает. - <code> <b>less long_file.json</b> </code> 
+19. Просмотреть содержимое длинного файла (команда less) изучите как она работает. - <code> <b>less long_file.json</b> </code>
 Для выхода нажать <code> <b>q</b> </code> 
 20. Вывести дату и время - <code> <b>date</b> </code> или <code> <b>date +%c</b> </code>
 ---
@@ -50,8 +50,10 @@
 
 :star: Задание
 1. Отправить http запрос на сервер.
-http://162.55.220.72:5005/terminal-hw-request - 
+http://162.55.220.72:5005/terminal-hw-request  
+
 <code> <b>curl 'http://162.55.220.72:5005/terminal-hw-request'</b> </code>
+
 2. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 
 Файл <code> <b>file_script.sh</b> </code>
