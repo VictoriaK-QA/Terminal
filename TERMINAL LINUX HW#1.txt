@@ -1,0 +1,57 @@
+TERMINAL LINUX HW#1
+
+1. Посмотреть где я - pwd
+2. Создать папку - mkdir folder_test
+3. Зайти в папку - cd folder_test
+4. Создать 3 папки - mkdir folder_test1 folder_test2 folder_test3
+5. Зайти в любоую папку - cd folder_test3
+6. Создать 5 файлов (3 txt, 2 json) - touch file_bug1.txt file_bug2.txt file_bug3.txt file_bug4.json file_bug5.json
+7. Создать 3 папки - mkdir folder_chek1 folder_chek2 folder_chek3
+8. Вывести список содержимого папки - ls -la
+9. Открыть любой файл - vim file_bug5.json
+10. Написать туда что-нибудь, любой текст - Нажать i
+{
+        "order": {
+                "id": 1,
+                "firstName": "Константин",
+                "lastName": "Иванов",
+                "address": "Ленина, 12",
+                "metroStation": 4,
+                "phone": "+79996663300",
+                "status":2
+
+        }
+}
+11. Сохранить и выйти - Нажать Esc :wq Enter
+12. Выйти из папки на уровень выше - cd ..
+---
+13. Переместить любые 2 файла, которые вы создали, в любую другую папку - mv file_bug4.json file_bug5.json ~/folder_test/folder_test2/
+14. Cкопировать любые 2 файла, которые вы создали, в любую другую папку - cp file_bug1.txt file_bug2.txt ~/folder_test/folder_test2/
+15. Найти файл по имени - find file_bug5.json
+16. Просмотреть содержимое в реальном времени (команда grep) изучите как она работает - tail -F file_bug5.json
+Для выхода нажать ctrl+c
+17. Вывести несколько первых строк из текстового файла - head -n2 file_bug5.json
+18. Вывести несколько последних строк из текстового файла - tail -n2 file_bug5.json
+19. Просмотреть содержимое длинного файла (команда less) изучите как она работает. - less long_file.json Для выхода нажать q
+20. Вывести дату и время - date или date +%c
+
+
+
+Задание*
+
+1. Отправить http запрос на сервер. http://162.55.220.72:5005/terminal-hw-request
+curl 'http://162.55.220.72:5005/terminal-hw-request'
+
+2. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+Файл file_script.sh
+
+Команда ./file_script.sh
+
+#!/bin/bash 
+cd Terminal_dz1
+mkdir folder1 folder2 folder3
+cd folder3
+touch file1.txt file2.txt file3.txt file4.json file5.json
+mkdir folder_dz1 folder_dz2 folder_dz3
+ls -la 
+mv file3.txt file4.json ~/folder_test/Terminal_dz1/folder1/
