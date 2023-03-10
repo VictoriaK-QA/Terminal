@@ -383,8 +383,10 @@ Attachment: link
 <code> <b>git push -u origin Postman SQL Jmeter CheckLists Charles MobileTesting BagReports</b> </code>
 
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта - <code> <b>git checkout BagReports</b> </code>
+
 <code> <b>touch bug_report.txt</b> </code>
 <code> <b>vim skills.txt</b> </code>
+
  <b>Нажать</b> <code> <b>i</b> </code>
  ```
 ID: BR-14,
@@ -402,12 +404,14 @@ Attachment: link
 
 4. Запушить структуру багрепорта на внешний репозиторий - <code> <b>git add .</b> </code>
 <code> <b>git commit -m "bug report"</b> </code>
+
 <code> <b>git push</b> </code>
 
 5. Вмержить ветку Bag Reports в Main - <code> <b>git checkout main</b> </code>
 <code> <b>git merge Bag_reports</b> </code>
 
 6. Запушить main на внешний репозиторий - <code> <b>git add .</b> </code>
+
 <code> <b>git commit -m "merge branch Bag_reports in main"</b> </code>
 <code> <b>git push</b> </code>
 
