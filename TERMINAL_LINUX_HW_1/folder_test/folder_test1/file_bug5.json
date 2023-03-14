@@ -1,0 +1,12 @@
+{
+        "order": {
+                "id": 1,
+                "firstName": "Константин",
+                "lastName": "Иванов",
+                "address": "Ленина, 12",
+                "metroStation": "4",
+                "phone": "+79996663300",
+                "status":2
+
+        }
+}
