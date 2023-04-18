@@ -17,7 +17,7 @@
 9. Открыть любой файл - <code> <b>vim file_bug5.json</b> </code>
 10. Написать туда что-нибудь, любой текст - 
 
-Нажать <code> <b>i</b> </code>
+<b>Нажать</b> <code> <b>i</b> </code>
 ```json
 {
         "order": {
@@ -32,7 +32,7 @@
         }
 }
 ```
-11. Сохранить и выйти - Нажать <code> <b>Esc :wq Enter</b> </code>
+11. Сохранить и выйти - <b>Нажать</b> <code> <b>Esc :wq Enter</b> </code>
 12. Выйти из папки на уровень выше - <code> <b>cd ..</b> </code>
 ---
 13. Переместить любые 2 файла, которые вы создали, в любую другую папку 
@@ -80,9 +80,9 @@ http://162.55.220.72:5005/terminal-hw-request
 
 2. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 
-Файл <code> <b>file_script.sh</b> </code>
+<b>Файл</b> <code> <b>file_script.sh</b> </code>
 
-Команда <code> <b>./file_script.sh</b> </code>
+<b>Команда</b> <code> <b>./file_script.sh</b> </code>
 ```
 #!/bin/bash 
 cd Terminal_dz1
@@ -156,10 +156,6 @@ mv file3.txt file4.json ~/folder_test/Terminal_dz1/folder1/
 <details>
 
   <summary>GIT   HW#1</summary>
-
-  
-  
-  <code> <b></b> </code>
 
 ### JSON
 
