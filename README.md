@@ -117,9 +117,9 @@ mv file3.txt file4.json ~/folder_test/Terminal_dz1/folder1/
  8| Через cat сделать текстовый файл tf_3.txt  c любыми строками|<code> <b> cat >> tf_3.txt </b> </code> <br/> postman <br/> sql <br/> charles <br/> Нажать <code> <b>Ctrl+C</b> </code>  
  9| Через cat добавить в текстовый файл tf_3.txt строку “the second 2”|<code> <b>cat >> tf_3.txt <br/> the second 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
  10| Через cat добавить в текстовый файл tf_3.txt строку “the sec 2”|<code> <b>cat >> tf_3.txt <br/> the sec 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
- 11| Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”|<code> <b>cat >> ...\GitHub\JavaScript\dir_1\tf_2.txt <br/> the sec 3</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
+ 11| Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”|<code> <b>cat >> ...\GitHub\JavaScript\dir_1\tf_2.txt</b> </code> <br/> <code> <b>the sec 3</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
  12| Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2”|<code> <b>cat >> tf_3.txt <br/> the SeCoNd 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
- 13| Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”|<code> <b>cat >> /e/qa/dir_1/tf_2.txt <br/> the seConD 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
+ 13| Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”|<code> <b>cat >> /e/qa/dir_1/tf_2.txt</b> </code> <br/> <code> <b>the seConD 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
  14| Сделать текстовый файл tf_4.txt в котором будет 15 строк|<code> <b>seq 15  cat > tf_4.txt</b> </code> 
  15| Сделать текстовый файл tF_5.txt в котором будет 13 строк|<code> <b>seq 13  cat > tf_5.txt</b> </code> 
  16| Вывести список всех файлов в папке|<code> <b> ls -la </b> </code> 
