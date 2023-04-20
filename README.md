@@ -115,11 +115,11 @@ mv file3.txt file4.json ~/folder_test/Terminal_dz1/folder1/
  6| Находясь в папке dir_1 через команду cat создать текстовый <br/>файл tf_2.txt со следующими строками: <br/>the first 1 <br/>the second 2 <br/> the third 3|<code> <b> cat >> tf_2.txt </b> </code> <br/> the first 1 <br/> the second 2 <br/> the third 3</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code> 
  7| Зайти в папку inner_dir_1|<code> <b> cd inner_dir_1 </b> </code> 
  8| Через cat сделать текстовый файл tf_3.txt  c любыми строками|<code> <b> cat >> tf_3.txt </b> </code> <br/> postman <br/> sql <br/> charles <br/> Нажать <code> <b>Ctrl+C</b> </code>  
- 9| Через cat добавить в текстовый файл tf_3.txt строку “the second 2”|<code> <b>cat >> tf_3.txt <br/> the second 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
- 10| Через cat добавить в текстовый файл tf_3.txt строку “the sec 2”|<code> <b>cat >> tf_3.txt <br/> the sec 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
- 11| Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”|<code> <b>cat >> ...\GitHub\JavaScript\dir_1\tf_2.txt</b> </code> <br/> <code> <b>the sec 3</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
- 12| Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2”|<code> <b>cat >> tf_3.txt <br/> the SeCoNd 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
- 13| Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”|<code> <b>cat >> /e/qa/dir_1/tf_2.txt</b> </code> <br/> <code> <b>the seConD 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
+ 9| Через cat добавить в текстовый файл tf_3.txt строку <br/> “the second 2”|<code> <b>cat >> tf_3.txt <br/> the second 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
+ 10| Через cat добавить в текстовый файл tf_3.txt строку <br/>“the sec 2”|<code> <b>cat >> tf_3.txt <br/> the sec 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
+ 11| Через cat добавить в текстовый файл tf_2.txt строку <br/> “the sec 3”|<code> <b>cat >> ...\GitHub\JavaScript\dir_1\tf_2.txt</b> </code> <br/> <code> <b>the sec 3</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
+ 12| Через cat добавить в текстовый файл tf_3.txt строку <br/> “the SeCoNd 2”|<code> <b>cat >> tf_3.txt <br/> the SeCoNd 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
+ 13| Через cat добавить в текстовый файл tf_2.txt строку <br/> “the seConD 2”|<code> <b>cat >> /e/qa/dir_1/tf_2.txt</b> </code> <br/> <code> <b>the seConD 2</b> </code> <br/> Нажать <code> <b>Ctrl+C</b> </code>
  14| Сделать текстовый файл tf_4.txt в котором будет 15 строк|<code> <b>seq 15  cat > tf_4.txt</b> </code> 
  15| Сделать текстовый файл tF_5.txt в котором будет 13 строк|<code> <b>seq 13  cat > tf_5.txt</b> </code> 
  16| Вывести список всех файлов в папке|<code> <b> ls -la </b> </code> 
@@ -128,24 +128,24 @@ mv file3.txt file4.json ~/folder_test/Terminal_dz1/folder1/
  19| Найти путь к файлу tf_4.txt|<code> <b>find tf_4.txt</b> </code> 
  20| Отчистить файл tf_4.txt от содержимого без удаления самого файла|<code> <b>> inner_dir_1/tf_4.txt</b> </code> 
  21| Найти путь к файлам у которых есть  “tf” в названии|<code> <b>find . -name "*tf *"</b> </code> 
- 22| Найти путь к файлам у которых есть  “tf” в названии и буквы <br/> в любом регистре|<code> <b>find . -i name "*tf *"</b> </code> 
+ 22| Найти путь к файлам у которых есть  “tf” в названии и буквы в любом регистре|<code> <b>find . -i name "*tf *"</b> </code> 
  23| Найти строки в файлах где есть комбинация букв “sec” <br/>в текущей папке|<code> <b>grep -n sec *</b> </code> 
  24| Найти строки в файлах где есть комбинация букв “sec” <br/>в любом регистре в текущей папке|<code> <b>grep -in sec *</b> </code> 
- 25| Найти строки в файлах где есть только комбинация букв “sec” <br/>в текущей папке|<code> <b>grep -x sec *</b> </code> 
- 26| Найти строки в файлах где есть только комбинация букв “sec” <br/>в любом регистре в текущей папке|<code> <b>grep -ix sec *</b> </code> 
+ 25| Найти строки в файлах где есть только комбинация букв “sec” в текущей папке|<code> <b>grep -x sec *</b> </code> 
+ 26| Найти строки в файлах где есть только комбинация букв “sec” в любом регистре в текущей папке|<code> <b>grep -ix sec *</b> </code> 
  27| Найти строки в файлах где есть комбинация букв “second” <br/>в текущей папке|<code> <b> grep second *</b> </code> 
  28| Найти строки в файлах где есть комбинация букв “second” <br/>в любом регистре в текущей папке|<code> <b>grep -i second *</b> </code> 
  29| Найти строки в файлах где есть комбинация букв “second” <br/>во всех папках ниже уровнем|<code> <b>grep -r second */.</b> </code> 
- 30| Найти только путь и название файла в строках которых есть <br/>комбинация букв “second” в текущей папке|<code> <b>grep -l second *</b> </code> 
+ 30| Найти только путь и название файла в строках которых есть комбинация букв “second” в текущей папке|<code> <b>grep -l second *</b> </code> 
  31| Найти все строки во всех файлах где нет комбинации “second”|<code> <b>grep -vri second *</b> </code> 
  32| Найти только название и путь к файлам где нет комбинации “second”|<code> <b>grep -lrv second *</b> </code> 
  33| Вывести в терминал 4 последних строк любого текстового файла|<code> <b>tail -n4 inner_dir_1/tf_4.txt</b> </code> 
  34| Вывести в терминал 4 первые строки любого текстового файла|<code> <b> head -4 inner_dir_1/tf_4.txt</b> </code> 
- 35| Команда в одну строку. Создать папку и создать текстовый файл с <br/>содержиммым|<code> <b> </b> </code> 
- 36| Команда в одну строку. Переместить в любую одну папку текстовые <br/>файлы у которых в содержимом есть слово “sec”|<code> <b> </b> </code> 
- 37| Команда в одну строку. Скопировать в любую одну папку текстовые <br/>файлы у которых в содержимом есть слово “sec”|<code> <b> </b> </code> 
- 38| Команда в одну строку. Найти все строки c “sec” во всех текстовых файлах, скопировать и вставить эти строки в один новый созданный <br/>текстовый файл|<code> <b> </b> </code> 
- 39| Команда в одну строку. Удалить текстовые файлы у которых в <br/>содержимом есть слово “sec”|<code> <b> </b> </code> 
+ 35| Команда в одну строку. Создать папку и создать текстовый файл с содержиммым|<code> <b> </b> </code> 
+ 36| Команда в одну строку. Переместить в любую одну папку текстовые файлы у которых в содержимом есть слово “sec”|<code> <b> </b> </code> 
+ 37| Команда в одну строку. Скопировать в любую одну папку текстовые файлы у которых в содержимом есть слово “sec”|<code> <b> </b> </code> 
+ 38| Команда в одну строку. Найти все строки c “sec” во всех текстовых файлах, скопировать и вставить эти строки в один новый созданный текстовый файл|<code> <b> </b> </code> 
+ 39| Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово “sec”|<code> <b> </b> </code> 
  40| Просто вывести в терминал строку “Good job!!”| <code> <b> echo "Good job!!" </b> </code> 
 
 
