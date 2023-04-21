@@ -68,7 +68,7 @@ cat >> tf_3.txt  the SeCoNd 2
 13. „ерез cat добавить в текстовый файл tf_2.txt строку
 Уthe seConD 2Ф	 
 
-cat >> /e/qa/dir_1/tf_2.txt 
+cat >> .../dir_1/tf_2.txt 
  the seConD 2 
 Ќажать  Ctrl+C 
 
