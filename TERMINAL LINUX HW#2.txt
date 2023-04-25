@@ -62,14 +62,15 @@ cat >> ...\GitHub\JavaScript\dir_1\tf_2.txt
 12. „ерез cat добавить в текстовый файл tf_3.txt строку
 Уthe SeCoNd 2Ф	 
 
-cat >> tf_3.txt  the SeCoNd 2 
+cat >> tf_3.txt  
+the SeCoNd 2 
 Ќажать  Ctrl+C 
 
 13. „ерез cat добавить в текстовый файл tf_2.txt строку
 Уthe seConD 2Ф	 
 
 cat >> .../dir_1/tf_2.txt 
- the seConD 2 
+the seConD 2 
 Ќажать  Ctrl+C 
 
 14. —делать текстовый файл tf_4.txt в котором будет 15 строк	 
